@@ -38,7 +38,7 @@ public class DarkMonkeyLookAndFeel extends com.nilo.plaf.nimrod.NimRODLookAndFee
                 String color = NbPreferences.root().node("laf").get("darkmonkey.color", null);
                 if (color == null) { /* Create key with default value */
                     NbPreferences.root().node("laf").put("darkmonkey.color", "blue");
-                    color = "pony";
+                    color = "blue";
                 }
                 
                 switch (color.toLowerCase()) {
